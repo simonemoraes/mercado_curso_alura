@@ -1,6 +1,6 @@
 <?php
 
-class usuarios_model extends CI_Model {
+class Usuarios_model extends CI_Model {
     
     public function salva($usuario) {
         $this->db->insert("usuarios", $usuario);

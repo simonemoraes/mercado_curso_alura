@@ -34,6 +34,7 @@
                     "name" => "senha",
                     "id" => "senha",
                     "class" => "form-control",
+                    "method" => "post",
                     "maxlength" => "255"
                 ));
 
@@ -71,6 +72,7 @@
                     "name" => "senha",
                     "id" => "senha",
                     "class" => "form-control",
+                    "method" => "post",
                     "maxlength" => "255"
                 ));
 
@@ -81,6 +83,8 @@
                 ));
 
                 echo form_close();
+                
+                $this->output->enable_profiler(TRUE);
                 ?>
 
             <?php endif ?>   

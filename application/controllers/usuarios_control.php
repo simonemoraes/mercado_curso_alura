@@ -6,9 +6,9 @@ if (!defined('BASEPATH'))
 class Usuarios_control extends CI_Controller {
 
     public function novo() {
-        /* Carrega todas as informaçoes da execução 
+        /*Carrega todas as informaçoes da execução */
           $this->output->enable_profiler(TRUE);
-         */
+         
 
         $usuario = array(
             "nome" => $this->input->post("nome"),

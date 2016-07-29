@@ -2,7 +2,9 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="<?= base_url("css/bootstrap.min.css") ?>">
+        <title>Mercado</title>
+        <link rel="stylesheet" href="<?= base_url("/css/bootstrap.min.css")?>">
+        
     </head>
     <body>
         <div class="container">

@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "produtos_control";
+$route['default_controller'] = "Produtos_control";
 $route['404_override'] = '';
 $route['produtos_control/(:num)'] = 'produtos_control/mostra/$1';
 
