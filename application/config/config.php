@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost:8080/mercado';
+$config['base_url'] = 'http://localhost:8080/cursos_Alura/mercado';
 //$config['base_url'] = 'http://www.simone.ruianderson.com.br';
 
 /*
